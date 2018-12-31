@@ -28,9 +28,9 @@ using standardized hardware.
 
 * [Syllabus](syllabus.md)
 
-* [Piazza] (https://piazza.com/class/jqcjlmgtrub1yh/home)
+* [Piazza](https://piazza.com/class/jqcjlmgtrub1yh/home)
 
-* [Canvas] (https://iu.instructure.com/courses/1773115)
+* [Canvas](https://iu.instructure.com/courses/1773115)
 
 * Google Drive
 
