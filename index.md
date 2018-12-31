@@ -2,7 +2,7 @@
 
 Spring 2019
 
-## Description
+# Description
 
 From servers to smartphones, our world has been revolutionized by the modern
 computer.  The Internet of Things (IoT) promises to again revolutionize how we
@@ -26,19 +26,19 @@ using standardized hardware.
 
 # Quick Links
 
-* [Syllabus](syllabus.md)
+### [Syllabus](syllabus.md)
 
-* [Piazza](https://piazza.com/class/jqcjlmgtrub1yh/home)
+### [Piazza](https://piazza.com/class/jqcjlmgtrub1yh/home)
 
-* [Canvas](https://iu.instructure.com/courses/1773115)
+### [Canvas](https://iu.instructure.com/courses/1773115)
 
-* Google Drive
+### Google Drive
 
-### Assignments 
+# Assignments 
 
 None Yet!
 
-### Paper Readings
+# Paper Readings
 
 None Yet!
 

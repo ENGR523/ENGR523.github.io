@@ -20,9 +20,9 @@ It will focus on topics IoT-scale systems, including:
 * Energy constraints and harvesting
 * Systems designs / architectures
 
-A large portion of this class will focus on *designing* and *implimenting*
-software solutions for IoT-scale problems.  Due to time constraints, we will be
-using standardized hardware. 
+Due to time constraints, this class will focus on *designing* and *implimenting*
+a solution to a *specific* IoT problem, energy-efficient audio-based event
+detection.  To minimize complexity, we will be using standardized hardware. 
 
 ## Instructor
 
@@ -115,4 +115,6 @@ Piazza Link
 [https://piazza.com/class/jqcjlmgtrub1yh](https://piazza.com/class/jqcjlmgtrub1yh/home)
 
 
+---
 
+Version 2019.1
