@@ -21,8 +21,8 @@ It will focus on topics IoT-scale systems, including:
 * Systems designs / architectures
 
 A large portion of this class will focus on *designing* and *implimenting*
-software solutions for IoT-scale problems.  Due to time constraints, we will be
-using standardized hardware. 
+software solutions for a specific IoT problem, accoustic event detection.  Due
+to time constraints, we will be using standardized hardware. 
 
 # Quick Links
 
@@ -32,7 +32,7 @@ using standardized hardware.
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
-### Google Drive
+### [Google Drive](https://drive.google.com/drive/folders/13EfRISe_SL5i4uhY8CkOVEvulP0I-mGB?usp=sharing) 
 
 # Assignments 
 
@@ -41,4 +41,44 @@ None Yet!
 # Paper Readings
 
 None Yet!
+
+# Course Schedule
+
+This is the tentative schedule for this semester.
+
+| Date  |   Day     | Lecture Topic         |
+| --    |  -----    |   -----               |
+| 1/7   | Monday    | What is IoT?          |
+| 1/9   | Wednesday | Demo:  Intro to Argon |
+| 1/14  | Monday    | DSP: Audio as a Wave  | 
+| 1/16  | Wednesday | DSP: Capturing Signals|
+| 1/21  | Monday    | MLK Day               |
+| 1/23  | Wednesday | DSP: FFT              |
+| 1/28  | Monday    | DSP: FFT              | 
+| 1/30  | Wednesday | uC: MMIO              |
+| 2/4   | Monday    | uC: DMA               |
+| 2/6   | Wednesday | uC: Particle Libraries|
+| 2/11  | Monday    | ML:  Introduction     |
+| 2/13  | Wednesday | ML: MFCC              |
+| 2/18  | Monday    | ML: Bayes             |
+| 2/20  | Wednesday | ML: Bayes             |
+| 2/25  | Monday    | ML: Neural Networks   |
+| 2/27  | Wednesday | ML: Neural Networks   | 
+| 3/4   | Monday    | ML: Neural Networks   |
+| 3/6   | Wednesday | ML: Neural Networks   | 
+| 3/11  | Monday    | Spring Break          |
+| 3/13  | Wednesday | Spring Break          |
+| 3/18  | Monday    | ML:  Introduction     |
+| 3/20  | Wednesday | ML: Bayesian          |
+| 3/25  | Monday    | ML: Bayesian          |
+| 3/27  | Wednesday | ML: Neural Networks   |
+| 4/1   | Monday    | ML: Neural Networks   |
+| 4/3   | Wednesday | ML: Neural Networks   |
+| 4/8   | Monday    | ML: Neural Networks   |
+| 4/10  | Wednesday | PWR: Measurement      |
+| 4/15  | Monday    | PWR: Minimization     |
+| 4/17  | Wednesday | uC: CMSIS NN          |
+| 4/22  | Monday    | uC: CMSIS NN          |
+| 4/24  | Wednesday | Overflow              |
+| 5/1   | Wednesday | Final Demos 8am-10am  |
 
