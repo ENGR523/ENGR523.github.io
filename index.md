@@ -13,15 +13,8 @@ for decades, allowing for computation that seamlessly fades into the background
 of everyday life.  
 
 This class will be a mix of topical discussions and hands-on programming.
-It will focus on topics IoT-scale systems, including:
-* Application domains
-* Digital signal processing
-* Wireless communication 
-* Energy constraints and harvesting
-* Systems designs / architectures
-
 A large portion of this class will focus on *designing* and *implimenting*
-software solutions for a specific IoT problem, accoustic event detection.  Due
+software solutions for a specific IoT problem, acoustic (audio) event detection.  Due
 to time constraints, we will be using standardized hardware. 
 
 # Quick Links
@@ -34,11 +27,7 @@ to time constraints, we will be using standardized hardware.
 
 ### [Google Drive](https://drive.google.com/drive/folders/13EfRISe_SL5i4uhY8CkOVEvulP0I-mGB?usp=sharing) 
 
-# Assignments 
-
-None Yet!
-
-# Paper Readings
+# Projects
 
 None Yet!
 
@@ -49,23 +38,23 @@ This is the tentative schedule for this semester.
 | Date  |   Day     | Lecture Topic         |
 | --    |  -----    |   -----               |
 | 1/7   | Monday    | What is IoT?          |
-| 1/9   | Wednesday | Demo:  Intro to Argon |
-| 1/14  | Monday    | DSP: Audio as a Wave  | 
-| 1/16  | Wednesday | DSP: Capturing Signals|
+| 1/9   | Wednesday | Networks: Sockets     |
+| 1/14  | Monday    | Demo:  Intro to Argon |
+| 1/16  | Wednesday | DSP: Audio as a Wave  |
 | 1/21  | Monday    | MLK Day               |
-| 1/23  | Wednesday | DSP: FFT              |
-| 1/28  | Monday    | DSP: FFT              | 
-| 1/30  | Wednesday | uC: MMIO              |
-| 2/4   | Monday    | uC: DMA               |
-| 2/6   | Wednesday | uC: Particle Libraries|
-| 2/11  | Monday    | ML:  Introduction     |
-| 2/13  | Wednesday | ML: MFCC              |
-| 2/18  | Monday    | ML: Bayes             |
-| 2/20  | Wednesday | ML: Bayes             |
-| 2/25  | Monday    | ML: Neural Networks   |
-| 2/27  | Wednesday | ML: Neural Networks   | 
-| 3/4   | Monday    | ML: Neural Networks   |
-| 3/6   | Wednesday | ML: Neural Networks   | 
+| 1/23  | Wednesday | uC: Capturing Audio   |
+| 1/28  | Monday    | uC: MMIO              |
+| 1/30  | Wednesday | uC: DMA               |
+| 2/4   | Monday    | uC: Particle Libraries|
+| 2/6   | Wednesday | uC: Overflow          |
+| 2/11  | Monday    | DSP: Introduction     |
+| 2/13  | Wednesday | DSP: Filters          |
+| 2/18  | Monday    | DSP: Filters          |
+| 2/20  | Wednesday | DSP: FFT              |
+| 2/25  | Monday    | DSP: FFT              |
+| 2/27  | Wednesday | DSP: MFCC             |
+| 3/4   | Monday    | Review / Overflow     | 
+| 3/6   | Wednesday | Exam                  |
 | 3/11  | Monday    | Spring Break          |
 | 3/13  | Wednesday | Spring Break          |
 | 3/18  | Monday    | ML:  Introduction     |

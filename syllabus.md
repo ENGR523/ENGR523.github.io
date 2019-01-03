@@ -13,15 +13,8 @@ for decades, allowing for computation that seamlessly fades into the background
 of everyday life.  
 
 This class will be a mix of topical discussions and hands-on programming.
-It will focus on topics IoT-scale systems, including:
-* Application domains
-* Digital signal processing
-* Wireless communication 
-* Energy constraints and harvesting
-* Systems designs / architectures
-
 A large portion of this class will focus on *designing* and *implimenting*
-software solutions for a specific IoT problem, accoustic event detection.  Due
+software solutions for a specific IoT problem, acoustic (audio) event detection.  Due
 to time constraints, we will be using standardized hardware. 
 
 ## Instructor
@@ -44,72 +37,45 @@ equipment (multimeter/oscilloscope).
 
 Students without such background are advised to consult the instructor.  
 
+## Textbook
 
-## Deliverables
+No textbook is required, but the following can be helpful:
 
+ * [Think DSP](http://greenteapress.com/wp/think-dsp/)
+ * [Particle Documentation](https://docs.particle.io/)
 
-### Assignments 
+## Topics Covered
 
-We will have multiple assignments over the semester. These will start simple and
-gradually become more complex.  You will be given the hardware.  
+* IoT broadly
+* Embedded-Systems
+  * Networking
+  * Analog-to-digital converters
+  * Direct memory access 
+* Audio Processing
+  * Sampling
+  * Filtering
+  * FFT
+  * MFCC
+* Machine Learning 
+  * Baysian networks
+  * Fully-connected networks
 
-The (tentative) assignments include: 
- 
-* Internet-triggered blinking LEDs
-* Polling-based audio data capture 
-* DMA-based audio data capture + Internet-uploading
-* Cloud-based audio event detection 
+## Projects
 
-You will be allowed to work in *teams of two*.
+Over the course of the semester, we will assign multiple programming projects.
+Full points will requires these projects be submitted to the autograder and/or be
+demonstrated to the TA. These projects will involve writing both C code for
+embedded systems and python code for a standard Linux machine.  
 
-### Project 
-
-This class will also feature a end-of-the-semester project focused on designing
-and implementing a low-power on-board audio-event detection system. You will be
-allowed to work in teams of two or three for this project.  It will involve a
-final written report and a presentation/demonstration to the class. 
-
-### Reviews
-
-The second half of the semester will involve reading papers.  Initially we will
-start with a single paper per class, but will gradually progress to two papers
-per class.  You will be responsible for reading the paper before class and
-writing a short review of the assigned paper(s) and submiting it via Canvas. 
-
-The review should answer the following questions:
-
-* What is the problem the paper addresses? 
-* Why is it important?  
-* What is the key observation or hypothesis the paper makes?  
-* What key assumptions does the paper makes?
-* What are the main strengths of this paper?
-* What are the main weaknesses of this paper?
-* Which figure or experiment was most compelling in support of their argument? Why? 
-
-
-## In-class Participation
-
-You are expected to participate in the in-class discussions.  As such,
-attendance is mandatory.  Attendance will be taken periodically.  Unexcused absences will impact your final grade.
-
-## Grading Policy
-
-The tentative point distribution is included below.  It is not likely that this
-will change, but circumstances might occur which would make changes necessary,
-at the discretion of the instructor. *Once a grade has been posted to Canvas,
-you will have one week to appeal the grade.*
-
- * Paper Reviews: 10% 
- * In-class Participation: 10%
- * Assignments: 45%
- * Project:  35%
+You will be allowed to work in **teams of two**.
 
 ## Due Dates and Extensions
- 
+
 **Assignments turned in after the exact time and date on the assignment will
 receive a zero**. We do not generally offer extensions. For example, we do not
-offer extensions due to crowded computing sites, internet access problems,
-accidental erasure or loss of files, or outside conflicting commitments.
+offer extensions due to crowded computing sites, long queue times or slow
+response times on the autograder, internet access problems, accidental erasure
+or loss of files, or outside conflicting commitments.
 
 We will consider extension requests made in person and at least two weeks in
 advance, for example, for religious holidays or planned medical procedures.
@@ -118,13 +84,44 @@ unanticipated medical or personal emergencies. If you can't see the instructor
 in advance due to the emergency, then contact them as soon as you possibly can.
 In all cases, we require written proof of the emergency.
 
+## Grading
+
+Your final grade is based on scores from the standard projects, the final
+project, and one midterm. The tentative point distribution is included in the
+following table. It is not likely that this will change, but circumstances might
+occur which would make changes necessary, at the discretion of the instructor.
+*Once a grade has been posted to Canvas, you will have one week to appeal the
+grade.*
+
+| Standard Projects | Midterm       | Final Project |
+| -------------     | -----------   | --------      |
+| 50%               |    25%        |  25%          | 
+
+## The Autograder
+
+We will grade your programs in an autograder system that is similar to the Linux
+environment. Your code must be submitted, compile, and run correctly on the
+autograder before the deadline. We use a web-based autograder for project
+submissions. For some projects, the autograder will also evaluate the
+thoroughness of test cases you submit.
+
+Note that for security reasons, the autograder website is only accessible from
+within the IU network. Therefore, you must either be on campus or connected
+through a VPN to access the website.
+
+Autograder Link: [https://autograder.sice.indiana.edu](https://autograder.sice.indiana.edu)
+
 ## Forum
 
-We will be using Piazza to host a course forum. You are encouraged to read this regularly and post technical questions as it will be a significant source of help and hints on the projects. We do not answer technical questions via email. To save everyone time, we want all students to have the benefit of seeing each question and its answer, so please use the forum. We prohibit posting your own solutions, project code, test cases, or autograder output to the forum.
+We will be using Piazza to host a course forum. You are encouraged to read this
+regularly and post technical questions as it will be a significant source of
+help and hints on the projects. *We do not answer technical questions via
+email*. To save everyone time, we want all students to have the benefit of
+seeing each question and its answer, so please use the forum. We prohibit
+posting your own solutions, project code, test cases, or autograder output to
+the forum.
 
-Piazza Link   
-[https://piazza.com/class/jqcjlmgtrub1yh](https://piazza.com/class/jqcjlmgtrub1yh/home)
-
+Piazza Link: [https://piazza.com/class/jqcjlmgtrub1yh](https://piazza.com/class/jqcjlmgtrub1yh)
 
 ## Academic Integrity
 
@@ -137,7 +134,10 @@ in any way: do your own work! Doing your own work means that you must turn in
 your own, original work. It means you do not turn in a solution copied from
 somebody else or found on the web. In programming projects, working together may
 extend to figuring out overall strategies for solution but **you may not work
-together or share the actual code** that you submit.
+together or share the actual code** that you submit. 
+
+For projects where teams are allowed, the group is allowed to share all code between
+group members, but not outside of the group.  
 
 ## Disability Services for Students
 
@@ -155,6 +155,6 @@ We will post a Canvas announcement in the case of any critical corrections or
 clarifications. It is your responsibility to ensure you are able to receive
 Canvas announcements.
 
----
+----
+Version: 2019.1
 
-Version 2019.1
