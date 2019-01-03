@@ -25,7 +25,7 @@ to time constraints, we will be using standardized hardware.
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
-### [Google Drive](https://drive.google.com/drive/folders/13EfRISe_SL5i4uhY8CkOVEvulP0I-mGB?usp=sharing) 
+### [Downloads](downloads.md)
 
 # Projects
 
