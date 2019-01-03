@@ -39,8 +39,8 @@ This is the tentative schedule for this semester.
 | --    |  -----    |   -----               |
 | 1/7   | Monday    | What is IoT?          |
 | 1/9   | Wednesday | Networks: Sockets     |
-| 1/14  | Monday    | Demo:  Intro to Argon |
-| 1/16  | Wednesday | DSP: Audio as a Wave  |
+| 1/14  | Monday    | DSP: Audio as a Wave  |
+| 1/16  | Wednesday | Demo: Intro to Argon  |
 | 1/21  | Monday    | MLK Day               |
 | 1/23  | Wednesday | uC: Capturing Audio   |
 | 1/28  | Monday    | uC: MMIO              |
