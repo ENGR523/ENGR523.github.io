@@ -13,9 +13,11 @@ for decades, allowing for computation that seamlessly fades into the background
 of everyday life.  
 
 This class will be a mix of topical discussions and hands-on programming.
-A large portion of this class will focus on *designing* and *implimenting*
-software solutions for a specific IoT problem, acoustic (audio) event detection.  Due
-to time constraints, we will be using standardized hardware. 
+Rather than giving a wide-ranging overview of IoT, we will instead focus on a
+single project within the IoT domain.  Thus, a large portion of this class will
+focus on *designing* and *implimenting* software solutions for a specific IoT
+problem, acoustic (audio) event detection.  Due to time constraints, we will be
+using standardized hardware. 
 
 ## Instructor
 
@@ -24,16 +26,17 @@ lukefahr@iu.edu
 2030 Luddy Hall 
 
 ## Schedule
+
 09:30A-10:45A   Monday/Wednesday  
 IF 4012 (Luddy Hall)  
 
 ## Prerequisites
 
-This class *assumes you are familiar with embedded systems* (ENGR 314, CSCI P442,
-or equivalent).  We will assume familiarity with topics such as
-low-level programming for embedded processors (C/assembly), basic hardware
-structures (ADCs, DACs, timers, etc), and basic familiarity with testbench
-equipment (multimeter/oscilloscope).  
+This class *assumes you are somewhat familiar with embedded systems*.  Ideally
+this means you have taken ENGR 314 or CSCI P442. However, at a minimum, you
+should be familiar with low-level systems broadly, *i.e.*  ENGR 210 or CSCI
+C335.  We will assume familiarity with topics such as low-level programming
+(C/assembly), and high-level programming (Python). 
 
 Students without such background are advised to consult the instructor.  
 
@@ -46,7 +49,7 @@ No textbook is required, but the following can be helpful:
 
 ## Topics Covered
 
-* IoT broadly
+* The IoT field broadly
 * Embedded-Systems
   * Networking
   * Analog-to-digital converters

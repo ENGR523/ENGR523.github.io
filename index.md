@@ -13,19 +13,24 @@ for decades, allowing for computation that seamlessly fades into the background
 of everyday life.  
 
 This class will be a mix of topical discussions and hands-on programming.
-A large portion of this class will focus on *designing* and *implimenting*
-software solutions for a specific IoT problem, acoustic (audio) event detection.  Due
-to time constraints, we will be using standardized hardware. 
+Rather than giving a wide-ranging overview of IoT, we will instead focus on a
+single project within the IoT domain.  Thus, a large portion of this class will
+focus on *designing* and *implimenting* software solutions for a specific IoT
+problem, acoustic (audio) event detection.  Due to time constraints, we will be
+using standardized hardware. 
 
 # Quick Links
 
 ### [Syllabus](syllabus.md)
 
+### [Lecture Slides](lectures.md)
+
+### [Downloads](downloads.md)
+
 ### [Piazza](https://piazza.com/class/jqcjlmgtrub1yh/home)
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
-### [Downloads](downloads.md)
 
 # Projects
 
