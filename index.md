@@ -23,7 +23,7 @@ using standardized hardware.
 
 ### [Syllabus](syllabus.md)
 
-### [Lecture Slides](lectures.md)
+### [Lecture Slides](https://drive.google.com/drive/u/2/folders/1c0alwzeuRnmeZwxsc5-Bif8f2z-Gk_Hh)
 
 ### [Downloads](downloads.md)
 
