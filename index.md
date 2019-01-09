@@ -27,7 +27,7 @@ using standardized hardware.
 
 ### [Downloads](downloads.md)
 
-### [Piazza](https://piazza.com/class/jqcjlmgtrub1yh/home)
+### [Piazza](https://piazza.com/iu/spring2019/engr523)
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
