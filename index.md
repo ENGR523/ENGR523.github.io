@@ -36,6 +36,8 @@ using standardized hardware.
 
 [P1 - UDP Server](https://docs.google.com/document/d/1dJlIPUWk1L2coURPC64BAPZrTUrJ95otM3YQF0NdnT4)
 
+[P2 - Sensor Wifi](https://docs.google.com/document/d/1HSKKS1lVq8QUrBxqqvZk7CzSFvo2mP5SvdMsZ2gXsAY)
+
 # Course Schedule
 
 This is the tentative schedule for this semester.
