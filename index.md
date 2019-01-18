@@ -25,7 +25,7 @@ using standardized hardware.
 
 ### [Lecture Slides](https://drive.google.com/drive/u/2/folders/1c0alwzeuRnmeZwxsc5-Bif8f2z-Gk_Hh)
 
-### [Downloads](downloads.md)
+### [Downloads](https://drive.google.com/drive/u/1/folders/1O0j-_R9X7K9jCuKZHteRt76lBqL13tbA)
 
 ### [Piazza](https://piazza.com/iu/spring2019/engr523)
 
