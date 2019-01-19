@@ -31,6 +31,8 @@ using standardized hardware.
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
+### [Instructions for building Argo user applications locally with arm gcc](build_instructions.md)
+
 # Projects
 
 [P1 - UDP Server](https://docs.google.com/document/d/1dJlIPUWk1L2coURPC64BAPZrTUrJ95otM3YQF0NdnT4)
