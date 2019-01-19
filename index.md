@@ -31,7 +31,7 @@ using standardized hardware.
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
-### [Instructions for building Argo user applications locally with arm gcc](build_instructions.md)
+### [Instructions to build user applications for Argon locally with arm gcc](build_instructions.md)
 
 # Projects
 
