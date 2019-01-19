@@ -31,6 +31,7 @@ using standardized hardware.
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
+### [Instructions for Local Compilation](build_instructions.org)
 
 # Projects
 
