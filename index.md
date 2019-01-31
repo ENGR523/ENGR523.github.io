@@ -39,6 +39,8 @@ using standardized hardware.
 
 [P2 - Sensor Wifi](https://docs.google.com/document/d/1HSKKS1lVq8QUrBxqqvZk7CzSFvo2mP5SvdMsZ2gXsAY)
 
+[P3 - Audio Detection](https://docs.google.com/document/d/1G985hyylZ0dr9FfbCnRWznqpd8McK9ssAsFdIglHaZg)
+
 # Course Schedule
 
 This is the tentative schedule for this semester.
