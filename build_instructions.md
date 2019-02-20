@@ -1,5 +1,7 @@
 # Instructions to build applications locally
 
+Version: 2019.1  
+
 Particle provides the flexibility of building user applications using
 a number of ways. For example the web IDE was already shown in the
 class. The particle CLI tool can also be used to build applications
@@ -34,7 +36,7 @@ git commands.
 
     git clone https://github.com/particle-iot/device-os.git
     cd device-os
-    git checkout v0.8.0-rc.27
+    git checkout v0.9.0
     git submodule update --init
 
 The shared Virtual image(VM) contains a fresh checkout of the
