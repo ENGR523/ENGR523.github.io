@@ -166,7 +166,7 @@ Please feel free to go through Particle's build documentation on
 the Particle build system. *Something that will come in handy at a
 later point in this semester.*
 
-It is wise to do a clean build for the first time and subsequently
+It is wise to *only do a clean build for the first time* and subsequently
 the `clean` option can be dropped from the above make command to do
 incremental builds, which reduces the build time significantly.
 After a successful build there are 2 things created
@@ -186,7 +186,7 @@ into the argon device at the same time. In order to do this add the
 `program-dfu` option to the previously used build command.
 
     # to build and then flash the blinky app
-    	make all program-dfu PLATFORM=argon APPDIR=../../blinky
+    make all program-dfu PLATFORM=argon APPDIR=../../blinky PARTICLE_DEVELOP=1 USE_SWD_JTAG=y MODULAR=n
 
 This will flash the built image and the application binary through
 DFU. Prior to executing this please ensure the **device is set to
