@@ -53,16 +53,16 @@ This is the tentative schedule for this semester.
 | 1/16  | Wednesday | Demo: Intro to Argon  |
 | 1/21  | Monday    | MLK Day               |
 | 1/23  | Wednesday | uC: Capturing Audio   |
-| 1/28  | Monday    | uC: MMIO              |
-| 1/30  | Wednesday | uC: DMA               |
-| 2/4   | Monday    | uC: Particle Libraries|
-| 2/6   | Wednesday | uC: Overflow          |
-| 2/11  | Monday    | DSP: Introduction     |
-| 2/13  | Wednesday | DSP: Filters          |
-| 2/18  | Monday    | DSP: Filters          |
+| 1/28  | Monday    | DSP: Filters          | 
+| 1/30  | Wednesday | CLASS CANCLED         |
+| 2/4   | Monday    | DSP: FIR Filters      |
+| 2/6   | Wednesday | DSP: IIR Filters      | 
+| 2/11  | Monday    | uC: Timers            | 
+| 2/13  | Wednesday | uC: DMA               |
+| 2/18  | Monday    | DSP: FFT              |
 | 2/20  | Wednesday | DSP: FFT              |
-| 2/25  | Monday    | DSP: FFT              |
-| 2/27  | Wednesday | DSP: MFCC             |
+| 2/25  | Monday    | DSP: MFCC             |
+| 2/27  | Wednesday | DSP: Overflow         |
 | 3/4   | Monday    | Review / Overflow     | 
 | 3/6   | Wednesday | Exam                  |
 | 3/11  | Monday    | Spring Break          |
