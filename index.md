@@ -31,7 +31,7 @@ using standardized hardware.
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
-### [Local Build Instructions](build_instructions.md) [GDB Instructions](gdb_instructions.md)
+### [Local Build Instructions](build_instructions.md) and [GDB Instructions](gdb_instructions.md)
 
 # Projects
 
@@ -60,12 +60,12 @@ This is the tentative schedule for this semester.
 | 1/30  | Wednesday | CLASS CANCLED         |
 | 2/4   | Monday    | DSP: FIR Filters      |
 | 2/6   | Wednesday | DSP: IIR Filters      | 
-| 2/11  | Monday    | uC: Timers            | 
-| 2/13  | Wednesday | uC: DMA               |
-| 2/18  | Monday    | DSP: FFT              |
-| 2/20  | Wednesday | DSP: FFT              |
-| 2/25  | Monday    | DSP: MFCC             |
-| 2/27  | Wednesday | DSP: Overflow         |
+| 2/11  | Monday    | DSP: Filters          | 
+| 2/13  | Wednesday | DSP: MFCC             |
+| 2/18  | Monday    | DSP: MFCC             |
+| 2/20  | Wednesday | uC: Timers            |
+| 2/25  | Monday    | uC: ADC               |
+| 2/27  | Wednesday | uC: DMA               | 
 | 3/4   | Monday    | Review / Overflow     | 
 | 3/6   | Wednesday | Exam                  |
 | 3/11  | Monday    | Spring Break          |
