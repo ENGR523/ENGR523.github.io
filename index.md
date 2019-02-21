@@ -33,6 +33,8 @@ using standardized hardware.
 
 ### [Local Build Instructions](build_instructions.md)
 
+### [GDB Instructions](gdb_instructions.md)
+
 # Projects
 
 [P1 - UDP Server](https://docs.google.com/document/d/1dJlIPUWk1L2coURPC64BAPZrTUrJ95otM3YQF0NdnT4)

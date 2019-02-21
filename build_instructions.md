@@ -1,6 +1,6 @@
 # Instructions to build applications locally
 
-Version: 2019.1  
+Version: 2019.2  
 
 Particle provides the flexibility of building user applications using
 a number of ways. For example the web IDE was already shown in the
@@ -16,186 +16,93 @@ tool-chain for building the entire source code tree.
 
 <a id="orgc331188"></a>
 
-# Creating a project
+# Setup
 
-A project is a container for all the source code that you would be
-running on the Argon device, and Particle has made life a lot easier
-by providing utilities to create one!
+The following instructions assume you are running on the ENGR523 Virtual Machine.  If you are not running here, your paths may vary. 
 
+Let's start by blowing away any old firmware in our workspace directory.  In a terminal, enter the following:
 
-<a id="orgf4d400b"></a>
+    cd ~/workspace/
+    rm -rf device-os
 
-## Cloning particle's device firmware
+# Clone Firmware
 
-Device firmware is the piece of software that is putting everything
-together. It contains all the necessary drivers, a RTOS
-implementation and exposes a neat set of APIs which makes
-application development a much simpler task.
-Particle device firmware can be cloned using the following set of
-git commands.
+Now let's pull a new version of the Particle firmware:
 
     git clone https://github.com/particle-iot/device-os.git
     cd device-os
     git checkout v0.9.0
     git submodule update --init
 
-The shared Virtual image(VM) contains a fresh checkout of the
-device firmware and is present in ~/workspace/device-os/
+# Code our new application
 
-Application projects can be created using the particle CLI
-tool. The command for which is as below.
+In this example, we're going to create a project named timer.
 
-    particle project create
+    cd ~/workspace/device-os/user/applications
+    mkdir timer
+    cd timer
 
-The virtual image contains such a project and is present in
-~/workspace/blinky
-Please refer to Particle's [documentation](https://docs.particle.io/tutorials/developer-tools/cli/#working-with-projects-and-libraries) for further details. 
+# Starter Code
 
+We recommend you use the following starter code to get your project up and running quickly: 
 
-<a id="org9832710"></a>
+    // A necessary header inclusion
+    #include "application.h" 
 
-## Project structure
-
-There's a certain structure that is adhered to by Particle, and
-`particle project create`, sets up this basic scaffolding.The
-directory structure for a project, created with `particle project
-   create` is such - (shown for the "blinky" example present in the VM)
-
-    ├── inc
-    │ └── utils.h
-    ├── project.properties
-    ├── README.md
-    └── src
-     ├── blinky.cpp
-     └── build.mk
-
-Please note: the inc directory is not created by the `particle
-   project create` command, and has been created separately to keep a
-cleaner code. (It's a healthy practice to keep the header files
-separate from the source code, and any user defined header is meant
-to go inside this directory, as has happened with "Utils.h").
-
-"blinky.cpp" is the main source file for the application created
-for this demonstration. It just sets up the led ports in `setup()`,
-turns the leds on/off at regular intervals in the `loop()`
-function, which were shown in the class.
-
-Here is the code for "blinky.cpp", please feel free to use this as
-a starting point and experiment by modifying it.
-
-    #include "Particle.h" // A necessary header inclusion
     // Defining 2 int variables which references the D0 and D7 pins.
-    int led1 = D0;
-    int led2 = D7;
-    // This will run the device in manual mode, and not connect to the
+    int ledD7 = D7;
+
+    // This will run the device in semi-automatic mode, and not connect to the
     // wifi, Particle cloud by default.
-    SYSTEM_MODE(MANUAL);
-    
+    SYSTEM_MODE(SEMI_AUTOMATIC);
+
     // setup() runs once, when the device is first turned on.
     void setup() {
-    	// Put initialization like pinMode and begin functions here.
-    	pinMode(led1, OUTPUT);
-    	pinMode(led2, OUTPUT);
+        // Put initialization like pinMode and begin functions here.
+        pinMode(ledD7, OUTPUT);
     }
-    
+
     // loop() runs over and over again, as quickly as it can execute.
     void loop() {
-    
-    	// To blink the LED, first we'll turn it on...
-    	digitalWrite(led1, HIGH);
-    	digitalWrite(led2, HIGH);
-    
-    	// We'll leave it on for 1 second...
-    	delay(1000);
-    
-    	// Then we'll turn it off...
-    	digitalWrite(led1, LOW);
-    	digitalWrite(led2, LOW);
-    
-    	// Wait 1 second...
-    	delay(500);
-    	// And repeat!
+
+        // To blink the LED, first we'll turn it on...
+        digitalWrite(ledD7, HIGH);
+
+        // We'll leave it on for 1 second...
+        delay(1000);
+
+        // Then we'll turn it off...
+        digitalWrite(ledD7, LOW);
+
+        // Wait 1 second...
+        delay(500);
+        // And repeat!
     }
 
-The above example is very conveniently borrowed from the blinky
-example that is also available on the web IDE.
+# Building your project
 
-The make file is named build.mk (by default and can be changed if
-needed).It is to contain the following definitions prior to any
-other custom additions.
+This will build your project, and add the particle firmware.  Notice that we are adding a few extra flags to the make process.  
 
-    INCLUDE_DIRS += $(SOURCE_PATH)/$(USRSRC)  
-    CPPSRC += $(call target_files,$(USRSRC_SLASH),*.cpp)
-    CSRC += $(call target_files,$(USRSRC_SLASH),*.c)
-    APPSOURCES=$(call target_files,$(USRSRC_SLASH),*.cpp)
-    APPSOURCES+=$(call target_files,$(USRSRC_SLASH),*.c)
-    INCLUDE_DIRS += $(SOURCE_PATH)/inc
-    
-    ## Any additions are more than welcome beyond this point!
+    cd ~/workspace/device-os/main
+    make all PLATFORM-argon APP=timer PARTICLE_DEVELOP=1 USE_SWD_JTAG=y MODULAR=n
 
-Please refer to the [documentation](https://docs.particle.io/support/particle-tools-faq/local-build/#including-additional-header-directories) for further details.
+# Flash your project
 
+Now you have a few options for flashing your application to the Argon, we
+recommend the following.  This will flash the built image and the application
+binary through DFU. Prior to executing this please ensure the **device is set
+to DFU mode(blinking yellow led)**.
 
-<a id="orge948ec4"></a>
+    make program-dfu PLATFORM=argon APP=timer 
 
-# Building the project
+# Cleaning your project
 
+If you ever want to remove all of your build files, try the following:
 
-<a id="org5d24b8a"></a>
+    cd ~/workspace/device-os/main
+    make clean all PLATFORM-argon APPDIR=timer
 
-## To build the project
-
-The VM instance shared has a certain directory structure, the home
-directory of engr523 contains a sub-directory called workspace which
-has been set up for the convenience of first time use. Please start
-by moving into the workspace directory using `cd ~/workspace/`.
-
-    cd ~/workspace/device-os/main/
-    # to build the blinky application
-    make clean all PLATFORM=argon APPDIR=../../blinky
-
-`APPDIR` and `PLATFORM` in the above command are environment
-variables that is used by make. As you might have already figured
-out `PLATFORM` states the platform that we are building for (which
-is "argon" for our purpose), where as `APPDIR` points to the user
-application that we are trying to build("blinky" for this
-demonstration).
-
-Please feel free to go through Particle's build documentation on
-[github](https://github.com/particle-iot/device-os/blob/v0.8.0-rc.27/docs/build.md#quick-start) as there are a lot of customization that is possible with
-the Particle build system. *Something that will come in handy at a
-later point in this semester.*
-
-It is wise to *only do a clean build for the first time* and subsequently
-the `clean` option can be dropped from the above make command to do
-incremental builds, which reduces the build time significantly.
-After a successful build there are 2 things created
-
--   a system image which is the device firmware and contains the RTOS,
-    drivers.. etc
--   a binary of the application ("blinky" for this demo).
-
-
-<a id="orgbb191f0"></a>
-
-## Getting your code to run on the Argon device
-
-The make files provide a handy utility option `program-dfu` to
-build and subsequently flash the system-image, application binary
-into the argon device at the same time. In order to do this add the
-`program-dfu` option to the previously used build command.
-
-    # to build and then flash the blinky app
-    make all program-dfu PLATFORM=argon APPDIR=../../blinky PARTICLE_DEVELOP=1 USE_SWD_JTAG=y MODULAR=n
-
-This will flash the built image and the application binary through
-DFU. Prior to executing this please ensure the **device is set to
-DFU mode(blinking yellow led)**.
-
-
-<a id="orgbd22de5"></a>
-
-# Note
+# Notes
 
 Please email/contact Subhojit(susom@iu.edu) in case:
 
