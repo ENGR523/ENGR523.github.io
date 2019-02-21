@@ -46,6 +46,7 @@ In this example, we're going to create a project named timer.
 
 We recommend you use the following starter code to get your project up and running quickly: 
 
+```c++
     // A necessary header inclusion
     #include "application.h" 
 
@@ -78,6 +79,7 @@ We recommend you use the following starter code to get your project up and runni
         delay(500);
         // And repeat!
     }
+```
 
 # Building your project
 
