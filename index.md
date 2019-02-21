@@ -31,9 +31,7 @@ using standardized hardware.
 
 ### [Canvas](https://iu.instructure.com/courses/1773115)
 
-### [Local Build Instructions](build_instructions.md)
-
-### [GDB Instructions](gdb_instructions.md)
+### [Local Build Instructions](build_instructions.md) [GDB Instructions](gdb_instructions.md)
 
 # Projects
 
