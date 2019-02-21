@@ -41,6 +41,9 @@ using standardized hardware.
 
 [P3 - Audio Detection](https://docs.google.com/document/d/1G985hyylZ0dr9FfbCnRWznqpd8McK9ssAsFdIglHaZg)
 
+[P4 - Timer](https://docs.google.com/document/d/1c-qyhT65gpqn9XuGandkzFnfUGIZWBzrfA2i7joJtVY)
+
+
 # Course Schedule
 
 This is the tentative schedule for this semester.
