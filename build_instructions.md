@@ -86,7 +86,7 @@ We recommend you use the following starter code to get your project up and runni
 This will build your project, and add the particle firmware.  Notice that we are adding a few extra flags to the make process.  
 
     cd ~/workspace/device-os/main
-    make all PLATFORM-argon APP=timer PARTICLE_DEVELOP=1 USE_SWD_JTAG=y MODULAR=n
+    make all PLATFORM=argon APP=timer PARTICLE_DEVELOP=1 USE_SWD_JTAG=y MODULAR=n
 
 # Flash your project
 
@@ -95,7 +95,8 @@ recommend the following.  This will flash the built image and the application
 binary through DFU. Prior to executing this please ensure the **device is set
 to DFU mode(blinking yellow led)**.
 
-    make program-dfu PLATFORM=argon APP=timer 
+    make all program-dfu PLATFORM=argon APP=timer PARTICLE_DEVELOP=1 USE_SWD_JTAG=y MODULAR=n
+
 
 # Cleaning your project
 
