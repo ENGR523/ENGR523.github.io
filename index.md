@@ -43,6 +43,7 @@ using standardized hardware.
 
 [P4 - Timer](https://docs.google.com/document/d/1c-qyhT65gpqn9XuGandkzFnfUGIZWBzrfA2i7joJtVY)
 
+[P4 - DMA + VAD](https://docs.google.com/document/d/17BRWJMWgwCdMD-rr75Du_mxWyAStXXoT-AlgsvXaKdA)
 
 # Course Schedule
 
