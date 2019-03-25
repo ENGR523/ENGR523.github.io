@@ -77,7 +77,7 @@ This is the tentative schedule for this semester.
 | 3/27  | Wednesday | ML: Neural Networks   |
 | 4/1   | Monday    | ML: Neural Networks   |
 | 4/3   | Wednesday | ML: Neural Networks   |
-| 4/8   | Monday    | ML: Neural Networks   |
+| 4/8   | Monday    | NO CLASS              | 
 | 4/10  | Wednesday | PWR: Measurement      |
 | 4/15  | Monday    | PWR: Minimization     |
 | 4/17  | Wednesday | uC: CMSIS NN          |
