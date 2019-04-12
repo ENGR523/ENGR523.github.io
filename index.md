@@ -43,7 +43,7 @@ using standardized hardware.
 
 [P4 - Timer](https://docs.google.com/document/d/1c-qyhT65gpqn9XuGandkzFnfUGIZWBzrfA2i7joJtVY)
 
-[P4 - DMA + VAD](https://docs.google.com/document/d/17BRWJMWgwCdMD-rr75Du_mxWyAStXXoT-AlgsvXaKdA)
+[P5 - DMA + VAD](https://docs.google.com/document/d/17BRWJMWgwCdMD-rr75Du_mxWyAStXXoT-AlgsvXaKdA)
 
 # Course Schedule
 
@@ -78,8 +78,8 @@ This is the tentative schedule for this semester.
 | 4/1   | Monday    | ML: Neural Networks   |
 | 4/3   | Wednesday | ML: Neural Networks   |
 | 4/8   | Monday    | NO CLASS              | 
-| 4/10  | Wednesday | PWR: Measurement      |
-| 4/15  | Monday    | PWR: Minimization     |
+| 4/10  | Wednesday | ML: Neural Networks   |
+| 4/15  | Monday    | NO CLASS              | 
 | 4/17  | Wednesday | uC: CMSIS NN          |
 | 4/22  | Monday    | uC: CMSIS NN          |
 | 4/24  | Wednesday | Overflow              |
