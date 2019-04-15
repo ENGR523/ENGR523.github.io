@@ -45,6 +45,9 @@ using standardized hardware.
 
 [P5 - DMA + VAD](https://docs.google.com/document/d/17BRWJMWgwCdMD-rr75Du_mxWyAStXXoT-AlgsvXaKdA)
 
+[P6 - Keyword Spotting](https://docs.google.com/document/d/1u26Rr3BAkoaEZ5FkOMhXL--8BtQmY0MW8MFsa8Y2D6E)
+
+
 # Course Schedule
 
 This is the tentative schedule for this semester.
